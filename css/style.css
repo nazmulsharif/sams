@@ -1,0 +1,238 @@
+/*Global style--*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.maincontainer{
+	margin: 0 auto;
+	margin-top: 2%;
+}
+li{
+	list-style: none;
+}
+.clearfix{
+	clear: both;
+}
+
+/*Global style- end-*/
+
+/* header style -------*/
+
+.container-fluid{
+	width: 100%;
+}
+.header{
+	width: 100%;
+	border:2px solid #cdcdcd;
+	height: 100px;
+	background: #dedede;
+
+}
+.header .logo{
+	float: left;
+	width: 28%;
+}
+.header .website-title{
+	float: left;
+	width: 30%;
+	margin-top: 30px;
+	margin-left: 0;
+}
+.search-area{
+		float: right;
+    width: 30%;
+    padding: 10px;
+    margin-top: 16px;
+    margin-left: 0px;
+    display: inline-block;
+}
+.search-area input{
+	width: 50%;
+	padding: 10px;
+}
+.search-area .btn{
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.search-area .btn:hover{
+	background:#cdcdcd;
+
+}
+
+
+
+/* header style -------*/
+/* header responsive styles  starts*/
+@media only screen and (min-width: 375px) {
+	body{
+		width: 95%;
+		margin:auto;
+	}
+  .website-title h1{
+		font-size: 15px;
+		margin-left: 11%;
+		font-weight: bold;
+		text-align: center;
+	}
+	.logo{
+
+	}
+	.logo img{
+
+	}
+	.search-area{
+		height: 100%;
+		margin-top: 1%;
+		margin-left: 0;
+	}
+	.search-area input{
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.btn{
+		line-height: 10px;
+	}
+
+}
+/* header responsive styles  ends*/
+
+
+/*menu area---*/
+.menu{
+	margin-top:5px;
+	width: 100%;
+	border:2px solid #cdcdcd;
+	height: 50px;
+	background: #dedede;
+}
+.menu ul{
+	margin-left:350px;
+}
+.menu li{
+	list-style: none;
+	float: left;
+}
+.menu li a{
+	text-decoration: none;
+	padding: 0 15px;
+	display: inline-block;
+	line-height: 40px;
+	transition: all 0.25s;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.menu li a:hover{
+	border-bottom: 1px solid #cdcdcd;
+}
+/*menu area end---*/
+
+
+/*register-----section--*/
+/* .register-section{
+	width: 100%;
+	background: #dedede;
+	margin-top: 5px;
+	border:2px solid #cdcdcd;
+
+}
+.register-area{
+
+}
+.register-area .login-form{
+	width: 60%;
+	margin-left: 30%;
+}
+.register-area h3{
+	text-align: center;
+}
+.register-area table{
+
+}
+.register-area td{
+	padding: 15px;
+}
+.register-area input{
+	line-height: 20px;
+	display: inline-block;
+	padding: 10px;
+}
+.register-area .btn{
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 50%;
+	background: #dedede;
+}
+.register-area .btn:hover{
+	background:#cdcdcd;
+
+} */
+/*register-----section--*/
+
+
+/*login page---*/
+.login-section{
+	width: 100%;
+	background: #dedede;
+	margin-top: 5px;
+	border:2px solid #cdcdcd;
+
+}
+
+.login-form{
+	width: 60%;
+	margin-left: 30%;
+}
+.login-section h1{
+
+}
+
+.login-section td{
+}
+.login-section input{
+	line-height: 20px;
+	display: inline-block;
+	padding: 5px;
+}
+.login-section .login_btn{
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 40%;
+}
+.login-section .login_btn:hover{
+	background:#dcdcdc;
+
+}
+
+/*login page end---*/
+
+/*logout area----*/
+
+/*logout area end-*/
+
+
+/*Alrady-registered*/
+
+
+
+/*footer-section*/
+.footer-section{
+	width: 100%;
+	border:2px solid #cdcdcd;
+	height: 100px;
+	background: #dedede;
+	margin-top: 5px;
+
+}
+.footer-section footer{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+/*footer-section*/
